@@ -1,7 +1,7 @@
 {
   "id": "/demo/hiya",
   "cpus": 0.1,
-  "mem": 4096,
+  "mem": 512,
   "disk": 0,
   "instances": 1,
   "container": {
@@ -16,7 +16,7 @@
     }
   },
   "args": [
-    "world!"
+    "onextent.demo.Main", "--message", " biya?"
   ],
   "env": {
   }
