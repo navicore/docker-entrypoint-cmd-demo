@@ -1,0 +1,24 @@
+{
+  "id": "/demo/hiya",
+  "cpus": 0.1,
+  "mem": 4096,
+  "disk": 0,
+  "instances": 1,
+  "container": {
+    "type": "DOCKER",
+    "volumes": [],
+    "docker": {
+      "image": "navicore/hiya",
+      "network": "HOST",
+      "privileged": false,
+      "parameters": [],
+      "forcePullImage": true
+    }
+  },
+  "args": [
+    "world!"
+  ],
+  "env": {
+  }
+}
+
